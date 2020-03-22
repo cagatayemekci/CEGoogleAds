@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CEGoogleAds"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "A short description of CEGoogleAds."
 
   # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
+  spec.swift_version = '5.0'
   spec.source_files  = "CEGoogleAds", "CEGoogleAds/*.{h,m,swift}"
   #spec.exclude_files = "Classes/Exclude"
 
