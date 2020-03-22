@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13F9C63BC61A3EEF1EF04213 /* Pods_CEGoogleAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5266CB1BAD2B479FB45F7D /* Pods_CEGoogleAds.framework */; };
 		161C56972427C07900E5FC20 /* CEGoogleAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 161C56952427C07900E5FC20 /* CEGoogleAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168E925F2427E91000E5E322 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168E925B2427E90B00E5E322 /* GoogleUtilities.framework */; };
+		168E92602427E91000E5E322 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168E925C2427E90C00E5E322 /* nanopb.framework */; };
+		168E92612427E91000E5E322 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168E925D2427E90D00E5E322 /* GoogleAppMeasurement.framework */; };
+		168E92622427E91000E5E322 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168E925E2427E91000E5E322 /* GoogleMobileAds.framework */; };
 		16B684752427C13B00ADC55C /* GoogleAdsBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B684722427C13B00ADC55C /* GoogleAdsBannerView.swift */; };
 		16B684762427C13B00ADC55C /* GoogleAdsInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B684732427C13B00ADC55C /* GoogleAdsInterstitialView.swift */; };
 		16B684772427C13B00ADC55C /* GoogleAdsRewardedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B684742427C13B00ADC55C /* GoogleAdsRewardedView.swift */; };
 		16B684792427C2E500ADC55C /* InitializerRequires.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B684782427C2E500ADC55C /* InitializerRequires.swift */; };
-		16B6847F2427DE4A00ADC55C /* Pods-CEGoogleAds.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */; };
-		16B684802427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		161C56922427C07900E5FC20 /* CEGoogleAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CEGoogleAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		161C56952427C07900E5FC20 /* CEGoogleAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEGoogleAds.h; sourceTree = "<group>"; };
 		161C56962427C07900E5FC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168E925B2427E90B00E5E322 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		168E925C2427E90C00E5E322 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		168E925D2427E90D00E5E322 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		168E925E2427E91000E5E322 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		16B684722427C13B00ADC55C /* GoogleAdsBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdsBannerView.swift; sourceTree = "<group>"; };
 		16B684732427C13B00ADC55C /* GoogleAdsInterstitialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdsInterstitialView.swift; sourceTree = "<group>"; };
 		16B684742427C13B00ADC55C /* GoogleAdsRewardedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdsRewardedView.swift; sourceTree = "<group>"; };
 		16B684782427C2E500ADC55C /* InitializerRequires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerRequires.swift; sourceTree = "<group>"; };
-		16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target Support Files/Pods-CEGoogleAds/Pods-CEGoogleAds.release.xcconfig"; sourceTree = "<group>"; };
-		16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target Support Files/Pods-CEGoogleAds/Pods-CEGoogleAds.debug.xcconfig"; sourceTree = "<group>"; };
-		FE5266CB1BAD2B479FB45F7D /* Pods_CEGoogleAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEGoogleAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F9C63BC61A3EEF1EF04213 /* Pods_CEGoogleAds.framework in Frameworks */,
+				168E92602427E91000E5E322 /* nanopb.framework in Frameworks */,
+				168E925F2427E91000E5E322 /* GoogleUtilities.framework in Frameworks */,
+				168E92622427E91000E5E322 /* GoogleMobileAds.framework in Frameworks */,
+				168E92612427E91000E5E322 /* GoogleAppMeasurement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +52,6 @@
 			children = (
 				161C56942427C07900E5FC20 /* CEGoogleAds */,
 				161C56932427C07900E5FC20 /* Products */,
-				FFE5DA57C882BC0475F891C8 /* Pods */,
 				DD3BB2F3322CD1B200C521D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -76,18 +80,12 @@
 		DD3BB2F3322CD1B200C521D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE5266CB1BAD2B479FB45F7D /* Pods_CEGoogleAds.framework */,
+				168E925D2427E90D00E5E322 /* GoogleAppMeasurement.framework */,
+				168E925E2427E91000E5E322 /* GoogleMobileAds.framework */,
+				168E925B2427E90B00E5E322 /* GoogleUtilities.framework */,
+				168E925C2427E90C00E5E322 /* nanopb.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FFE5DA57C882BC0475F891C8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */,
-				16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +106,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 161C569A2427C07900E5FC20 /* Build configuration list for PBXNativeTarget "CEGoogleAds" */;
 			buildPhases = (
-				1E012BBB968B14FBE81A61C4 /* [CP] Check Pods Manifest.lock */,
 				161C568D2427C07900E5FC20 /* Headers */,
 				161C568E2427C07900E5FC20 /* Sources */,
 				161C568F2427C07900E5FC20 /* Frameworks */,
@@ -161,37 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B6847F2427DE4A00ADC55C /* Pods-CEGoogleAds.release.xcconfig in Resources */,
-				16B684802427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1E012BBB968B14FBE81A61C4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CEGoogleAds-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		161C568E2427C07900E5FC20 /* Sources */ = {
@@ -330,7 +300,6 @@
 		};
 		161C569B2427C07900E5FC20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -339,6 +308,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CEGoogleAds/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,7 +330,6 @@
 		};
 		161C569C2427C07900E5FC20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +338,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CEGoogleAds/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
