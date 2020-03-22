@@ -15,8 +15,6 @@
 		16B684792427C2E500ADC55C /* InitializerRequires.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B684782427C2E500ADC55C /* InitializerRequires.swift */; };
 		16B6847F2427DE4A00ADC55C /* Pods-CEGoogleAds.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */; };
 		16B684802427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */; };
-		16B684832427DF3100ADC55C /* Pods-CEGoogleAds.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 16B684812427DF3100ADC55C /* Pods-CEGoogleAds.release.xcconfig */; };
-		16B684842427DF3100ADC55C /* Pods-CEGoogleAds.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 16B684822427DF3100ADC55C /* Pods-CEGoogleAds.debug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +25,8 @@
 		16B684732427C13B00ADC55C /* GoogleAdsInterstitialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdsInterstitialView.swift; sourceTree = "<group>"; };
 		16B684742427C13B00ADC55C /* GoogleAdsRewardedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdsRewardedView.swift; sourceTree = "<group>"; };
 		16B684782427C2E500ADC55C /* InitializerRequires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerRequires.swift; sourceTree = "<group>"; };
-		16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CEGoogleAds.release.xcconfig"; sourceTree = "<group>"; };
-		16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-CEGoogleAds.debug.xcconfig"; sourceTree = "<group>"; };
-		16B684812427DF3100ADC55C /* Pods-CEGoogleAds.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-CEGoogleAds.release.xcconfig"; path = "Pods/Pods-CEGoogleAds.release.xcconfig"; sourceTree = "<group>"; };
-		16B684822427DF3100ADC55C /* Pods-CEGoogleAds.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-CEGoogleAds.debug.xcconfig"; path = "Pods/Pods-CEGoogleAds.debug.xcconfig"; sourceTree = "<group>"; };
+		16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target Support Files/Pods-CEGoogleAds/Pods-CEGoogleAds.release.xcconfig"; sourceTree = "<group>"; };
+		16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target Support Files/Pods-CEGoogleAds/Pods-CEGoogleAds.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5266CB1BAD2B479FB45F7D /* Pods_CEGoogleAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEGoogleAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,8 +76,6 @@
 		DD3BB2F3322CD1B200C521D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				16B684822427DF3100ADC55C /* Pods-CEGoogleAds.debug.xcconfig */,
-				16B684812427DF3100ADC55C /* Pods-CEGoogleAds.release.xcconfig */,
 				FE5266CB1BAD2B479FB45F7D /* Pods_CEGoogleAds.framework */,
 			);
 			name = Frameworks;
@@ -168,9 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B6847F2427DE4A00ADC55C /* Pods-CEGoogleAds.release.xcconfig in Resources */,
-				16B684832427DF3100ADC55C /* Pods-CEGoogleAds.release.xcconfig in Resources */,
 				16B684802427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig in Resources */,
-				16B684842427DF3100ADC55C /* Pods-CEGoogleAds.debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +330,7 @@
 		};
 		161C569B2427C07900E5FC20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B6847E2427DE4A00ADC55C /* Pods-CEGoogleAds.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,6 +357,7 @@
 		};
 		161C569C2427C07900E5FC20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B6847D2427DE4900ADC55C /* Pods-CEGoogleAds.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
